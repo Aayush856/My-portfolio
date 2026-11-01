@@ -1,0 +1,123 @@
+
+/* BASIC PAGE SETTINGS */
+body {
+  background-color: #0b0f19; /* Dark Background */
+  color: #ffffff; /* Light Text */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* CONTAINER TO CENTER CONTENT */
+.main-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* THE DISTINCT BOX STYLE */
+.box {
+  background-color: #161f2e;
+  border: 2px solid #00d2ff; /* Bright Cyan border */
+  border-radius: 12px; /* Rounded corners */
+  padding: 20px;
+  margin-bottom: 20px; /* Space between boxes */
+}
+
+/* HERO TOP SECTION */
+.hero-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.welcome {
+  color: #00d2ff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.name {
+  color: #00d2ff;
+}
+
+.hero-text h1 {
+  margin: 5px 0;
+  font-size: 32px;
+}
+
+.hero-text h3 {
+  color: #a0aec0;
+  margin-bottom: 10px;
+}
+
+/* CIRCULAR PHOTO */
+.hero-photo img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 3px solid #00d2ff;
+  object-fit: cover; /* Keeps your face properly framed */
+}
+
+/* HEADINGS INSIDE BOXES */
+.box h2 {
+  color: #00d2ff;
+  margin-top: 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #2d3748;
+  padding-bottom: 5px;
+}
+
+/* TAG LISTS (FOR SKILLS & QUALITIES) */
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* SKILLS BADGE (CYAN ACCENT) */
+.skill-tag {
+  background-color: #0b0f19;
+  color: #00d2ff;
+  border: 1px solid #00d2ff;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* QUALITIES BADGE (AMBER/GOLD ACCENT FOR VARIETY) */
+.quality-tag {
+  background-color: #0b0f19;
+  color: #f59e0b; /* Gold/Amber text */
+  border: 1px solid #f59e0b; /* Gold border */
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* SIMPLE LIST FOR HOBBIES */
+.simple-list {
+  padding-left: 20px;
+  line-height: 1.8;
+  color: #e2e8f0; /* Bright readable text */
+}
+
+.simple-list strong {
+  color: #ffffff; /* Bold text in pure white */
+}
+
+/* PARAGRAPH SPACING & TEXT STYLES */
+p {
+  line-height: 1.6;
+  color: #e2e8f0;
+}
+
+p strong {
+  color: #ffffff;
+}
+
+
